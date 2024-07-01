@@ -1,12 +1,12 @@
 :root {
-    --theme-color:#dab200;
-    --secondary-color:#ff8800;
-    --opposite-color:#ff8800;
-    --text-color:#dadada;
+    --theme-color:#1A374D;
+    --secondary-color:#6998AB;
+    --opposite-color:#406882;
+    --text-color:#000000;
     --title-color:#ffffff;
     --white-color:#ffffff;
     --light-bg-color:#f6f6f6;
-    --bg-color:#1c1d21;
+    --bg-color:#fff;
 }
 
 html {
@@ -255,7 +255,7 @@ a.red:hover {
 .heading h3 {
     font-size: 36px;
     line-height: 42px;
-    color: var(--title-color);
+    color: #1A374D;
     font-weight: 600;
 }
 
@@ -419,7 +419,7 @@ h4.sub-title {
 
 @media (max-width: 992px) {
 
-    .tank-bootstrap-header .navbar-light .navbar-nav .show > .nav-link,
+.tank-bootstrap-header .navbar-light .navbar-nav .show > .nav-link,
 .tank-bootstrap-header .navbar-light .navbar-nav .active > .nav-link,
 .tank-bootstrap-header .navbar-light .navbar-nav .nav-link.show,
 .tank-bootstrap-header .navbar-light .navbar-nav .nav-link.active {
@@ -1066,7 +1066,7 @@ h4.sub-title {
 }
 
 .tank-main-banner .banner-view {
-    background: url(../images/140758132-vista-superior-del-escritorio-del-médico-estetoscopio-pastillas-gafas-y-cuaderno-sobre-un-fondo.jpg) no-repeat right;
+    background: url(../images/Medico-tecnologia-gafas.avif) no-repeat right;
     background-size: cover;
     min-height: 100vh;
     position: relative;
@@ -2663,6 +2663,7 @@ li:last-child{
     display: inline-block;
     font-weight: 700;
 }
+
 .tank-features-4 a.red:hover {
     color: var(--theme-color);
 }
